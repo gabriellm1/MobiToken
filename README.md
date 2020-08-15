@@ -12,13 +12,15 @@ As soon as you deploy the smart contract with Remix IDE and your Metamask wallet
 
 #### Contract Deployment
 
-1. Go to [Remix IDE](https://remix.ethereum.org/) and create [MobiToken.sol](https://github.com/gabriellm1/MobiToken/blob/master/ERC20_Contract/MobiToken.sol) file. After that go to the Compile tab and click on Compile MobiToken.sol .
+1. Go to [Remix IDE](https://remix.ethereum.org/) and import [MobiToken.sol](https://github.com/gabriellm1/MobiToken/blob/master/ERC20_Contract/MobiToken.sol) file. After that go to the Compile tab and click on Compile MobiToken.sol .
 
 ![alt text](https://github.com/gabriellm1/MobiToken/blob/master/imgs/compile.png)
 
-2. Setup Metamask extension in your Chrome or Firefox navigator. Now in Remix, change to the Deploy & Run tab and select `Injected Web3`. Select which wallet will receive the tokens and click on deploy.
+2. Setup Metamask extension in your Chrome or Firefox browser.
 
-Obs: You should get Ether to your wallet so you can pay the gas fees for the deployment. To do so, checkout [Ropsten Ethereum Faucet](https://faucet.ropsten.be/) to receive some Ether on your Ropsten testnet wallet.
+You need to get some Ether to your wallet so you can pay the gas fees for the deployment. To do so, checkout [Ropsten Ethereum Faucet](https://faucet.ropsten.be/) to receive some Ether on your Ropsten testnet wallet. Make sure to switch your network on Metamask to a test one. If you used Metamask for the first time you may need to reload the page.
+
+Now in Remix, change to the Deploy & Run tab and select `Injected Web3` under ENVIRONMENT and connect to your wallet. Select which wallet will receive the tokens and click on deploy.
 
 ![alt text](https://github.com/gabriellm1/MobiToken/blob/master/imgs/deploy.png)
 
@@ -26,7 +28,7 @@ Obs: You should get Ether to your wallet so you can pay the gas fees for the dep
 
 ![alt text](https://github.com/gabriellm1/MobiToken/blob/master/imgs/deployed.png)
 
-Obs: You can check your contract deployment at [Etherscan.io](https://ropsten.etherscan.io/)
+ You can also check your contract deployment at [Etherscan.io](https://ropsten.etherscan.io/)
 
 #### Setting up the App
 
